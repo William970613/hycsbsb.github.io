@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <title>自拍集 | 小程</title>
+  <link rel="stylesheet" href="work.css">
+  <style>
+    .portfolio-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .portfolio-card {
+      background-color: white;
+      padding: 2em;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 400px;
+      animation: fadeIn 1s ease;
+    }
+
+    .portfolio-card a {
+      display: inline-block;
+      margin-top: 1em;
+      color: #1436c9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .portfolio-card a:hover {
+      text-decoration: underline;
+    }
+
+    .btn-portfolio {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 10px 20px;
+      background-color: #17cce4;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-portfolio:hover {
+      background-color: #0238eb;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="portfolio-container">
+    <div class="portfolio-card">
+      <h1>作品集頁面</h1>
+      <p>這裡可以放你的 side project、網站作品、設計稿！</p>
+      
+      <!-- 新增按鈕 -->
+<li>
+  <a href="portfolio2.html" class="btn-portfolio" >👉 查看照片
+</a>
+</li>
+      
+      <!-- 原本的回首頁 -->
+      <br />
+      <a href="work.html">← 回首頁</a>
+    </div>
+  </div>
+
+  <script src="work.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>自我介紹 - IG風格</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap" rel="stylesheet">
+  <!-- ✅ 引入 jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar">
+    <h2>HYC</h2>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="nav-menu" id="navMenu">
+      <a href="#">首頁</a>
+      <a href="MBTI.html">MBTI測驗</a>
+      <a href="portfolio2.html">照片牆</a>
+      <a href="contact.html">聯絡我</a>
+    </div>
+  </nav>
+
+  <main class="main">
+    <div class="profile">
+      <img src="photo1.jpg" class="profile-img" alt="頭像">
+      <div class="profile-info">
+        <h1>@c_c7799</h1>
+        <p>小程</p>
+        <div class="buttons">
+          <button onclick="location.href='TU.html'">我的妥瑞朋友</button>
+          <button onclick="location.href='video.html'">查看我撞牆的影片</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>📌 自我介紹</h2>
+      <div class="section-content">
+        <!-- ✅ 用打字機效果取代原本的介紹 -->
+        <p id="intro-text"></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🌟 興趣 & 技能</h2>
+      <div class="section-content">
+        <p>💻 程式設計<br>
+           🎮 打遊戲、拍同學的醜照<br>
+           📷 喜歡拍照分享生活點滴</p>
+      </div>
+    </div>
+  </main>
+
+  <script src="work.js"></script>
+  
+
+</body>
+</html>

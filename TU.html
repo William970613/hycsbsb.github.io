@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>圖片展示</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #000;
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+    }
+
+    .img-row {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex: 1;
+      align-items: center;
+    }
+
+    .img-row img {
+      max-height: 80%;
+      max-width: 30%;
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(255,255,255,0.1);
+    }
+
+    .btn {
+      text-decoration: none;
+      padding: 10px 20px;
+      background: #17cce4;
+      color: black;
+      font-weight: bold;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #0ea9bd;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="img-row">
+    <img src="Z.jpg" alt="圖片1" />
+    <img src="ZZ.jpg" alt="圖片2" />
+    <img src="S.jpg" alt="圖片3" />
+  </div>
+  <a class="btn" href="work.html">← 回首頁</a>
+</body>
+</html>

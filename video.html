@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片播放頁</title>
+  <link rel="stylesheet" href="work2.css">
+  <style>
+    body {
+      background: #000;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .btn {
+      margin-top: 20px;
+      text-decoration: none;
+      padding: 10px 20px;
+      background: #17cce4;
+      color: black;
+      font-weight: bold;
+      border-radius: 20px;
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #0ea9bd;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <video src="IMG_3260.mov" controls autoplay muted width="600"></video>
+  <a class="btn" href="work.html">← 回首頁</a>
+</body>
+</html>
